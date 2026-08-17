@@ -12,7 +12,5 @@ public class FeedbackLength {
             System.out.println("Feedback Exceeds Maximum Length");
         else
             System.out.println("Characters = " + feedback.length());
-
-        sc.close();
     }
 }

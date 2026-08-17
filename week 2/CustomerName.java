@@ -6,12 +6,13 @@ public class CustomerName {
 
         String name = sc.nextLine();
 
-        if (name.isEmpty() || name.length() > 50)
+        if (name.isEmpty() || name.length() > 50 || !name.matches("[a-zA-Z ]+"))
             System.out.println("Invalid Customer Name");
         else {
             System.out.println("Customer Name:");
             System.out.println(name);
         }
+
         sc.close();
     }
 }
